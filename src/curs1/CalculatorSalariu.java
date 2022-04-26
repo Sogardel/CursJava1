@@ -8,7 +8,7 @@ public class CalculatorSalariu {
 	public static void main(String[] args) {
 
 		Tester tester1 =  new Tester();
-		
+				
 		tester1.setNume("Oana");
 		tester1.setRatePerHour(25);
 		
