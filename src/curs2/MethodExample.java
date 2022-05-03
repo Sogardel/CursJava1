@@ -44,7 +44,7 @@ public class MethodExample {
 		
 		System.out.println(calculateTotal(sufragerie.nrTotal, bucatarie.nrTotal));
 
-		int calcTotal = calculateTotal2(sufragerie.nrTotal, bucatarie.nrTotal, 28, 45, 6);
+		int calcTotal = calculateTotal2(sufragerie.nrTotal, bucatarie.nrTotal, 28, 7, 8, 90, 100);
 		System.out.println(calcTotal);
 	}
 	
@@ -61,6 +61,13 @@ public class MethodExample {
 		int result  = area1 + area2;
 		return result;
 	}
+	
+	public static int calculateTotal(int area1, int area2, int area3) {
+		int result  = area1 + area2 + area3;
+		return result;
+	}
+	
+	
 	//calculateTotal2(sufragerie, bucatarie, hol)
 	public static int calculateTotal2(int...rooms) {
 		int result = 0;
@@ -73,6 +80,8 @@ public class MethodExample {
 		
 		return result;
 	}
+	
+
 	
 	
 }

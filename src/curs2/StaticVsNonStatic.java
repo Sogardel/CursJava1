@@ -2,8 +2,12 @@ package curs2;
 
 public class StaticVsNonStatic {
 	
+	public static final String IP_MASINA_1 = "1.2.3";
+	
+	//variabila de instanta
 	public String prenume;
 	
+	//var statice /clasa
 	public static String nume;
 	public static String departamanet = "QA";
 	

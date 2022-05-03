@@ -6,10 +6,10 @@ public class Rectangle {
 	private int lenght;
 	private int width;
 	private String name;
-
+		
 	
 	public Rectangle() {
-		lenght = 5;
+		lenght =6;
 		
 	}
 	
@@ -25,10 +25,20 @@ public class Rectangle {
 	}
 	
 	
+	public void setLenght(int lenght) {
+		this.lenght = lenght;
+	}
+	
 	
 	public void calculateTotal() {
 		//variabile locale
 		int total =  lenght + width;
+	}
+	
+	public int calcSuma() {
+		int suma;
+		suma =  lenght* width;
+		return suma;
 	}
 
 
@@ -37,9 +47,6 @@ public class Rectangle {
 		return lenght;
 	}
 
-	public void setLenght(int lenght) {
-		this.lenght = lenght;
-	}
 
 	public int getWidth() {
 		return width;

@@ -20,13 +20,13 @@ public class TestRectangle {
 		System.out.println(4); //int
 		System.out.println("4");// String
 		System.out.println('c'); //char
-		
+		System.out.println(5.2); //double
 		
 		Rectangle room1 = new Rectangle();
 		//room1.setLenght(5);
 		room1.setWidth(5);
 		
-		Rectangle room2 =  new Rectangle(3, 4);
+		Rectangle room2 =  new Rectangle(3,5);
 		
 		Rectangle room3 =  new Rectangle(3, 4, "Baie");
 		
