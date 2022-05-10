@@ -13,5 +13,9 @@ public class ForExample {
 		System.out.println("Code after for loop ");
 		
 	}
+	
+	// &&   &
+	
+	// ||   |
 
 }
