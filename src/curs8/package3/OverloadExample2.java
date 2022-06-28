@@ -34,25 +34,25 @@ public class OverloadExample2 {
 		
 	}
 	
-	public static int days(String day) {
+	public static String days(String day) {
 		
 		switch(day) {
 		case "L":
-			return 1;
+			return "Luni";
 		case "M":
-			return 2;
+			return "Marti";
 		case "Mi":
-			return 3;
+			return "Miercuri";
 		case "J":
-			return 4;
+			return "Joi";
 		case "V" :
-			return 5;
+			return "Vineri";
 		case "S":
-			return 6;
+			return "Sambata";
 		case "D":
-			return 7;
+			return "Duminica";
 		default:
-			return 0;
+			return "Zi invalida";
 			
 		}
 		
